@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-image: url("images/home-bg-2.jpg");
+    background-size: contain;
+}
+
+
+/*.....About......*/
+
+header {
+    text-align: center;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    height: 65px;
+}
+
+nav ul {
+    display: inline-block;
+    padding-left: 0;
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+    word-spacing: 20px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #444;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background: none;
+    color: #425BB5;
+}
+
+.sub-head {
+    display: table;
+    vertical-align: middle;
+    margin-left: 100px;
+    padding-top: 180px;
+    color: rgb(80, 76, 76);
+}
+
+.name {
+    color: #425BB5;
+    font-size: large;
+}
+
+.field {
+    font-size: 65px;
+    height: 0px;
+}
+
+.main {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.image {
+    border-radius: 30%;
+    object-position: right;
+    margin-left: 20px;
+}
+
+.main-1 {
+    color: rgb(80, 76, 76);
+    padding-top: 10%;
+    margin-left: 5%;
+    word-break: normal;
+}
+
+.main-2 {
+    color: rgb(80, 76, 76);
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    justify-content: space-around;
+    width: 80pc;
+    margin-bottom: 120px;
+}
+
+.main-3 {
+    color: rgb(80, 76, 76);
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-2 {
+    color: rgb(228, 220, 220);
+}
+
+.h {
+    border: 5px solid #425BB5;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+.p {
+    border: 5px solid #425BB5;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+.s {
+    border: 5px solid #425BB5;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+.submit {
+    color: white;
+    text-decoration: none;
+    width: auto;
+}
+
+.contact {
+    background-color: #425BB5;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    width: 20%;
+    margin-bottom: 40px;
+    margin-left: 40%;
+}
+
+.terms {
+    word-spacing: 30px;
+    margin-top: 18px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: bolder;
+}
+
+.terms a:hover {
+    color: #425BB5;
+}
+
+
+/*.....contact........*/
+
+.heading {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.sub-heading {
+    font-size: 50px;
+    color: #444;
+}
+
+.sub-2 {
+    margin: auto;
+    align-items: center;
+    margin-bottom: 20%;
+}
+
+.form-1 input {
+    width: 50%;
+    align-self: center;
+    height: 1cm;
+}
+
+.message {
+    width: 50%;
+}
+
+.conv {
+    font-size: 35px;
+    margin-bottom: 2%;
+    color: #444;
+}
+
+main {
+    text-align: center;
+}
+
+.done {
+    background-color: #425BB5;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    width: 20%;
+    margin-bottom: 40px;
+    margin-left: 2%;
+    color: white;
+}
+
+button:hover {
+    color: #425BB5;
+}
+
+
+/*........registration.......*/
+
+.gender {
+    width: 50%;
+    height: 1cm;
+}
+
+.new-done {
+    margin-bottom: 40%;
+}
